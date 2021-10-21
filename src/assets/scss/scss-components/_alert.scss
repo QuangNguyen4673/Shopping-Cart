@@ -1,0 +1,21 @@
+.alert {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  width: max-content;
+
+  cursor: default;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+.alert-danger {
+  @extend .alert;
+  background-color: #f8d7da;
+  color: #842029;
+}
+.alert-info {
+  @extend .alert;
+  color: #084298;
+  background-color: #cfe2ff;
+}

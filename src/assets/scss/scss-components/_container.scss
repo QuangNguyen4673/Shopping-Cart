@@ -1,0 +1,13 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+$responsive-breakpoints: 576px, 768px, 992px;
+@each $breakpoint in $responsive-breakpoints {
+  @media (min-width: $breakpoint) {
+    .container {
+      max-width: $breakpoint;
+    }
+  }
+}

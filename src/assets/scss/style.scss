@@ -1,5 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "./scss-components/globalvariables";
+@import "./scss-components/initialsetup";
+@import "./scss-components/product-card";
+@import "./scss-components/container";
+@import "./scss-components/lineclamp";
+@import "./scss-components/button";
+@import "./scss-components/cart";
+@import "./scss-components/form";
+@import "./scss-components/navbar";
+@import "./scss-components/alert";
+@import "./scss-components/shop";
+@import "./scss-components/shoprow";
+@import "./scss-components/purchasehistory";

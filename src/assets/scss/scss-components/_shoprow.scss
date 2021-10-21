@@ -1,0 +1,10 @@
+.shop-row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .shop-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

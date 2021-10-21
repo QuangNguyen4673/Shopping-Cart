@@ -1,0 +1,43 @@
+.product-card {
+  display: flex;
+  width: 100%;
+  max-width: 28rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  max-height: 12.5rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+
+  border: 1px solid rgba($color: #000000, $alpha: 0.25);
+  img {
+    max-width: 10.5rem;
+    object-fit: contain;
+  }
+  .product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    > * {
+      margin-bottom: 0.5rem;
+    }
+    .price-and-quantity {
+      display: flex;
+      width: 100%;
+      max-width: 9rem;
+      .quantity {
+        margin-left: auto;
+        width: 6ch;
+      }
+    }
+    button {
+      margin-top: auto;
+      display: block;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .product-card {
+    width: 30rem;
+  }
+}
