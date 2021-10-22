@@ -15,7 +15,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://quangnguyen4673.github.io/ShoppingCart/",
+  "homepage": "https://quangnguyen4673.github.io/Shopping-Cart",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
