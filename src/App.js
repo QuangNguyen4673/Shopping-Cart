@@ -25,7 +25,7 @@ function App() {
             setIsDropdownOpen={setIsDropdownOpen}
           />
           <Switch>
-            <Route path="/shop" component={Shop} />
+            <Route path="/" exact component={Shop} />
             <Route path="/cart" component={Cart} />
             <Route path="/signup" component={SignUp} />
             <Route path="/login" component={LogIn} />

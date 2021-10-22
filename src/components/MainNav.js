@@ -9,7 +9,7 @@ export default function MainNav(props) {
   return (
     <div className="navbar">
       <nav className="flex-wrapper-1">
-        <Link className="nav-link" to="/shop">
+        <Link className="nav-link" to="/">
           Shop
         </Link>
 
@@ -28,7 +28,7 @@ export default function MainNav(props) {
             </div>
             {isDropdownOpen && (
               <div className="dropdown-menu">
-                <Link className="nav-link" to="/purchasehistory">
+                <Link className="nav-link dd" to="/purchasehistory">
                   Purchase History
                 </Link>
                 <Link

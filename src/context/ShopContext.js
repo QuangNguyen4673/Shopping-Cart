@@ -71,7 +71,7 @@ export default function ShopContext({ children }) {
   const login = (email, password) => {
     return signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        history.push("/shop");
+        history.push("/");
         return alert("Login successful!");
       })
       .catch(() => {

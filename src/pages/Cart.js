@@ -39,7 +39,7 @@ export default function Cart() {
   if (!isItemInCart) {
     return (
       <div className="alert-info">
-        Your cart has no item. <Link to="/shop">Shop now</Link>
+        Your cart has no item. <Link to="/">Shop now</Link>
       </div>
     );
   }
